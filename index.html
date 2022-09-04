@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="images/panda-logo-design-vector-37013990.jpg" type="image/x-icon">
   </head>
   <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="container" id="home">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -20,16 +20,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shows</a>
+                    <a class="nav-link" href="#shows">Shows</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpacks">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#sub">Subscribe</a>
                   </li>   
               </div>
             </div>
@@ -129,8 +129,8 @@
               </div>
         </section>
         <!-- carousal End -->
-        <!-- card section start -->
-        <section class="container my-5">
+        <!-- card section start shows -->
+        <section class="container my-5" id="shows">
           <h2>Shows</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -138,6 +138,7 @@
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Supplies 360</h5>
+                  <h2>$160</h2>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="m-3">
@@ -150,6 +151,7 @@
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Nike 360</h5>
+                  <h2>$200</h2>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 <div class="m-3">
@@ -162,6 +164,7 @@
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Red AirMax</h5>
+                  <h2>$350</h2>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
                 <div class="m-3">
@@ -173,7 +176,72 @@
 
         </section>
         <!-- card section end -->
+        <!-- backpack Section Start -->
+        <section class="container my-5" id="backpacks">
+          <h2>Backpack</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card border border-0 shadow-lg h-100">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Beauty</h5>
+                  <h2>$260</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-warning"> Buy Now</div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border border-0 shadow-lg h-100">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ugly Beauty</h5>
+                  <h2>$300</h2>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-warning"> Buy Now</div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border border-0 shadow-lg h-100">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Black Beauty</h5>
+                  <h2>$450</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-warning"> Buy Now</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- backpack Section End -->
+        <!-- form Section start -->
+<section style="height: 300px;" class="container d-flex rounded-3 justify-content-center align-items-center bg-info" id="sub">
+ <div>
+  <h2>Lets Stay In Touch</h2>
+  <p>Get Update on Sales, and Discounts</p>
+  <form>
+    <div class="mb-1">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+ </div>
+</section>
+
+        <!-- form Section End -->
     </main>
+    <footer class="mt-5 text-center">
+       <p><small>2022 all rights are fearce guareded secret</small></p>
+    </footer>
 
 
 
